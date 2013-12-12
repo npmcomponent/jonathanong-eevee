@@ -1,0 +1,21 @@
+{
+  "name": "eevee",
+  "description": "Event handling and delegation",
+  "repo": "jonathanong/eevee",
+  "version": "0.0.1",
+  "dependencies": {
+    "component/matches-selector": "*",
+    "component/query": "*",
+    "jonathanong/contextual-selector": "*",
+    "jonathanong/tap-event": "*",
+    "discore/closest": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
