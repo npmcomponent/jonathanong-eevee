@@ -1,7 +1,7 @@
 {
   "name": "eevee",
   "description": "Event handling and delegation",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "scripts": {
     "test": "component test phantom"
   },

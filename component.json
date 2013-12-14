@@ -2,12 +2,12 @@
   "name": "eevee",
   "description": "Event handling and delegation",
   "repo": "jonathanong/eevee",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "dependencies": {
     "component/matches-selector": "*",
     "component/query": "*",
-    "jonathanong/contextual-selector": "*",
-    "jonathanong/tap-event": "*",
+    "component/contextual-selector": "*",
+    "component/tap-event": "*",
     "discore/closest": "*"
   },
   "development": {
