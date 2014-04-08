@@ -2,7 +2,7 @@
   "name": "eevee",
   "description": "Event handling and delegation",
   "repo": "jonathanong/eevee",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
     "component/matches-selector": "*",
     "component/query": "*",
