@@ -245,6 +245,7 @@ Eevee.prototype._removeEventListeners = function (events) {
 function eventListener(selectorspace) {
   return function (e) {
     var target = e.target
+    if (!target || target.nodeType !== 1) return
 
     Object.keys(selectorspace).forEach(function (selector) {
       // If target matches the selector, or is the descendant of an element that does, continue
@@ -254,7 +255,10 @@ function eventListener(selectorspace) {
         // IE throws an error with `[]` attributes in the selector
         matched = matches(target, selector + ',' + context(selector))
       } catch (err) {
-        console && console.log(err.stack)
+        if (console) {
+          console.error(target)
+          console.error(err.stack)
+        }
       }
 
       if (!matched)
