@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [jonathanong/eevee](http://github.com/jonathanong/eevee). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/jonathanong-eevee`. Please do not open issues or send pull requests against this repo. If you have issues with this repo, report it to [npmcomponent](https://github.com/airportyh/npmcomponent).*
 # Eevee
 
 Event handling and delegation for modern browsers.

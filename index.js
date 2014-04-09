@@ -1,8 +1,8 @@
-var matches = require('matches-selector')
-var context = require('contextual-selector')
-var closest = require('closest')
-var query = require('query')
-var tap = require('tap-event')
+var matches = require('component-matches-selector')
+var context = require('component-contextual-selector')
+var closest = require('discore-closest')
+var query = require('component-query')
+var tap = require('component-tap-event')
 
 module.exports = Eevee
 

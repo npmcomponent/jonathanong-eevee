@@ -1,23 +1,14 @@
 {
-  "name": "eevee",
+  "name": "jonathanong-eevee",
   "description": "Event handling and delegation",
   "version": "0.0.4",
-  "scripts": {
-    "test": "component test phantom"
-  },
-  "author": {
-    "name": "Jonathan Ong",
-    "email": "me@jongleberry.com",
-    "url": "http://jongleberry.com",
-    "twitter": "https://twitter.com/jongleberry"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jonathanong/eevee.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jonathanong/eevee/issues",
-    "email": "me@jongleberry.com"
+  "main": "index.js",
+  "dependencies": {
+    "component-matches-selector": "git://github.com/npmcomponent/component-matches-selector.git",
+    "component-query": "git://github.com/npmcomponent/component-query.git",
+    "component-contextual-selector": "git://github.com/npmcomponent/component-contextual-selector.git",
+    "component-tap-event": "git://github.com/npmcomponent/component-tap-event.git",
+    "discore-closest": "git://github.com/npmcomponent/discore-closest.git"
   },
   "license": "MIT"
 }
